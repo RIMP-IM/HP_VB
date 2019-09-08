@@ -117,10 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DescripcionLbl.Text" xml:space="preserve">
-    <value>Hexa Pawn es un juego que consta de un jugador humano y un jugador artificial.
-Es utilizado como demostración del aprendizaje de una IA, basada en un banco de posibles movimientos a realizar y en un centro de decisión.
-El centro de decisión se encarga de elegir el movimiento a ejecutar, teniendo en cuenta si el movimiento posible ya ha sido utilizado anteriormente con un resultado favorable o no.
-Si el resultado no es favorable, se elige un nuevo movimiento y queda registrado.</value>
-  </data>
 </root>

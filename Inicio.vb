@@ -5,7 +5,7 @@
 
     Private Sub BtnIniciar_Click(sender As Object, e As EventArgs) Handles BtnIniciar.Click
         Instrucciones.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 
 End Class
