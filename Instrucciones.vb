@@ -14,7 +14,7 @@
                 'DescripcionLbl.Refresh()
                 'Refresh()
             Case 1
-                Juego.Show()
+                'Juego.Show()
                 Me.Close()
         End Select
     End Sub
