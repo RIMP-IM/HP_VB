@@ -23,85 +23,67 @@ Partial Class Juego
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Juego))
-        Me.PerroNo1 = New System.Windows.Forms.PictureBox()
-        Me.GatoNo1 = New System.Windows.Forms.PictureBox()
-        Me.GatoNo2 = New System.Windows.Forms.PictureBox()
-        Me.GatoNo3 = New System.Windows.Forms.PictureBox()
-        Me.PerroNo2 = New System.Windows.Forms.PictureBox()
-        Me.PerroNo3 = New System.Windows.Forms.PictureBox()
-        CType(Me.PerroNo1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GatoNo1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GatoNo2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GatoNo3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PerroNo2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PerroNo3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pbPieza1 = New System.Windows.Forms.PictureBox()
+        Me.pbPieza2 = New System.Windows.Forms.PictureBox()
+        Me.pbPieza3 = New System.Windows.Forms.PictureBox()
+        Me.pbPiezaA = New System.Windows.Forms.PictureBox()
+        Me.pbPiezaB = New System.Windows.Forms.PictureBox()
+        Me.pbPiezaC = New System.Windows.Forms.PictureBox()
+        CType(Me.pbPieza1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPieza2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPieza3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPiezaA, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPiezaB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPiezaC, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PerroNo1
+        'pbPieza1
         '
-        Me.PerroNo1.BackColor = System.Drawing.Color.Transparent
-        Me.PerroNo1.BackgroundImage = CType(resources.GetObject("PerroNo1.BackgroundImage"), System.Drawing.Image)
-        Me.PerroNo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PerroNo1.Location = New System.Drawing.Point(176, 252)
-        Me.PerroNo1.Name = "PerroNo1"
-        Me.PerroNo1.Size = New System.Drawing.Size(177, 186)
-        Me.PerroNo1.TabIndex = 6
-        Me.PerroNo1.TabStop = False
+        Me.pbPieza1.Location = New System.Drawing.Point(209, 40)
+        Me.pbPieza1.Name = "pbPieza1"
+        Me.pbPieza1.Size = New System.Drawing.Size(120, 110)
+        Me.pbPieza1.TabIndex = 0
+        Me.pbPieza1.TabStop = False
         '
-        'GatoNo1
+        'pbPieza2
         '
-        Me.GatoNo1.BackColor = System.Drawing.Color.Transparent
-        Me.GatoNo1.BackgroundImage = CType(resources.GetObject("GatoNo1.BackgroundImage"), System.Drawing.Image)
-        Me.GatoNo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.GatoNo1.Location = New System.Drawing.Point(185, 12)
-        Me.GatoNo1.Name = "GatoNo1"
-        Me.GatoNo1.Size = New System.Drawing.Size(143, 158)
-        Me.GatoNo1.TabIndex = 7
-        Me.GatoNo1.TabStop = False
+        Me.pbPieza2.Location = New System.Drawing.Point(341, 40)
+        Me.pbPieza2.Name = "pbPieza2"
+        Me.pbPieza2.Size = New System.Drawing.Size(120, 110)
+        Me.pbPieza2.TabIndex = 1
+        Me.pbPieza2.TabStop = False
         '
-        'GatoNo2
+        'pbPieza3
         '
-        Me.GatoNo2.BackColor = System.Drawing.Color.Transparent
-        Me.GatoNo2.BackgroundImage = CType(resources.GetObject("GatoNo2.BackgroundImage"), System.Drawing.Image)
-        Me.GatoNo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.GatoNo2.Location = New System.Drawing.Point(322, 12)
-        Me.GatoNo2.Name = "GatoNo2"
-        Me.GatoNo2.Size = New System.Drawing.Size(143, 158)
-        Me.GatoNo2.TabIndex = 8
-        Me.GatoNo2.TabStop = False
+        Me.pbPieza3.Location = New System.Drawing.Point(477, 40)
+        Me.pbPieza3.Name = "pbPieza3"
+        Me.pbPieza3.Size = New System.Drawing.Size(120, 110)
+        Me.pbPieza3.TabIndex = 2
+        Me.pbPieza3.TabStop = False
         '
-        'GatoNo3
+        'pbPiezaA
         '
-        Me.GatoNo3.BackColor = System.Drawing.Color.Transparent
-        Me.GatoNo3.BackgroundImage = CType(resources.GetObject("GatoNo3.BackgroundImage"), System.Drawing.Image)
-        Me.GatoNo3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.GatoNo3.Location = New System.Drawing.Point(458, 12)
-        Me.GatoNo3.Name = "GatoNo3"
-        Me.GatoNo3.Size = New System.Drawing.Size(143, 158)
-        Me.GatoNo3.TabIndex = 9
-        Me.GatoNo3.TabStop = False
+        Me.pbPiezaA.Location = New System.Drawing.Point(209, 298)
+        Me.pbPiezaA.Name = "pbPiezaA"
+        Me.pbPiezaA.Size = New System.Drawing.Size(120, 110)
+        Me.pbPiezaA.TabIndex = 3
+        Me.pbPiezaA.TabStop = False
         '
-        'PerroNo2
+        'pbPiezaB
         '
-        Me.PerroNo2.BackColor = System.Drawing.Color.Transparent
-        Me.PerroNo2.BackgroundImage = CType(resources.GetObject("PerroNo2.BackgroundImage"), System.Drawing.Image)
-        Me.PerroNo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PerroNo2.Location = New System.Drawing.Point(310, 252)
-        Me.PerroNo2.Name = "PerroNo2"
-        Me.PerroNo2.Size = New System.Drawing.Size(177, 186)
-        Me.PerroNo2.TabIndex = 10
-        Me.PerroNo2.TabStop = False
+        Me.pbPiezaB.Location = New System.Drawing.Point(343, 298)
+        Me.pbPiezaB.Name = "pbPiezaB"
+        Me.pbPiezaB.Size = New System.Drawing.Size(120, 110)
+        Me.pbPiezaB.TabIndex = 4
+        Me.pbPiezaB.TabStop = False
         '
-        'PerroNo3
+        'pbPiezaC
         '
-        Me.PerroNo3.BackColor = System.Drawing.Color.Transparent
-        Me.PerroNo3.BackgroundImage = CType(resources.GetObject("PerroNo3.BackgroundImage"), System.Drawing.Image)
-        Me.PerroNo3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PerroNo3.Location = New System.Drawing.Point(444, 252)
-        Me.PerroNo3.Name = "PerroNo3"
-        Me.PerroNo3.Size = New System.Drawing.Size(177, 186)
-        Me.PerroNo3.TabIndex = 11
-        Me.PerroNo3.TabStop = False
+        Me.pbPiezaC.Location = New System.Drawing.Point(476, 298)
+        Me.pbPiezaC.Name = "pbPiezaC"
+        Me.pbPiezaC.Size = New System.Drawing.Size(120, 110)
+        Me.pbPiezaC.TabIndex = 5
+        Me.pbPiezaC.TabStop = False
         '
         'Juego
         '
@@ -111,29 +93,30 @@ Partial Class Juego
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.PerroNo3)
-        Me.Controls.Add(Me.PerroNo2)
-        Me.Controls.Add(Me.GatoNo3)
-        Me.Controls.Add(Me.GatoNo2)
-        Me.Controls.Add(Me.GatoNo1)
-        Me.Controls.Add(Me.PerroNo1)
+        Me.Controls.Add(Me.pbPiezaC)
+        Me.Controls.Add(Me.pbPiezaB)
+        Me.Controls.Add(Me.pbPiezaA)
+        Me.Controls.Add(Me.pbPieza3)
+        Me.Controls.Add(Me.pbPieza2)
+        Me.Controls.Add(Me.pbPieza1)
         Me.DoubleBuffered = True
         Me.Name = "Juego"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Juego"
-        CType(Me.PerroNo1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GatoNo1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GatoNo2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GatoNo3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PerroNo2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PerroNo3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPieza1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPieza2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPieza3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPiezaA, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPiezaB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPiezaC, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents PerroNo1 As PictureBox
-    Friend WithEvents GatoNo1 As PictureBox
-    Friend WithEvents GatoNo2 As PictureBox
-    Friend WithEvents GatoNo3 As PictureBox
-    Friend WithEvents PerroNo2 As PictureBox
-    Friend WithEvents PerroNo3 As PictureBox
+
+    Friend WithEvents pbPieza1 As PictureBox
+    Friend WithEvents pbPieza2 As PictureBox
+    Friend WithEvents pbPieza3 As PictureBox
+    Friend WithEvents pbPiezaA As PictureBox
+    Friend WithEvents pbPiezaB As PictureBox
+    Friend WithEvents pbPiezaC As PictureBox
 End Class
