@@ -23,6 +23,7 @@ Partial Class Juego
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Juego))
+<<<<<<< HEAD
         Me.perrono1 = New System.Windows.Forms.PictureBox()
         Me.perrono3 = New System.Windows.Forms.PictureBox()
         Me.perrono2 = New System.Windows.Forms.PictureBox()
@@ -102,6 +103,69 @@ Partial Class Juego
         Me.PictureBox6.Size = New System.Drawing.Size(169, 191)
         Me.PictureBox6.TabIndex = 6
         Me.PictureBox6.TabStop = False
+=======
+        Me.pbPieza1 = New System.Windows.Forms.PictureBox()
+        Me.pbPieza2 = New System.Windows.Forms.PictureBox()
+        Me.pbPieza3 = New System.Windows.Forms.PictureBox()
+        Me.pbPiezaA = New System.Windows.Forms.PictureBox()
+        Me.pbPiezaB = New System.Windows.Forms.PictureBox()
+        Me.pbPiezaC = New System.Windows.Forms.PictureBox()
+        CType(Me.pbPieza1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPieza2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPieza3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPiezaA, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPiezaB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPiezaC, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'pbPieza1
+        '
+        Me.pbPieza1.Location = New System.Drawing.Point(209, 40)
+        Me.pbPieza1.Name = "pbPieza1"
+        Me.pbPieza1.Size = New System.Drawing.Size(120, 110)
+        Me.pbPieza1.TabIndex = 0
+        Me.pbPieza1.TabStop = False
+        '
+        'pbPieza2
+        '
+        Me.pbPieza2.Location = New System.Drawing.Point(341, 40)
+        Me.pbPieza2.Name = "pbPieza2"
+        Me.pbPieza2.Size = New System.Drawing.Size(120, 110)
+        Me.pbPieza2.TabIndex = 1
+        Me.pbPieza2.TabStop = False
+        '
+        'pbPieza3
+        '
+        Me.pbPieza3.Location = New System.Drawing.Point(477, 40)
+        Me.pbPieza3.Name = "pbPieza3"
+        Me.pbPieza3.Size = New System.Drawing.Size(120, 110)
+        Me.pbPieza3.TabIndex = 2
+        Me.pbPieza3.TabStop = False
+        '
+        'pbPiezaA
+        '
+        Me.pbPiezaA.Location = New System.Drawing.Point(209, 298)
+        Me.pbPiezaA.Name = "pbPiezaA"
+        Me.pbPiezaA.Size = New System.Drawing.Size(120, 110)
+        Me.pbPiezaA.TabIndex = 3
+        Me.pbPiezaA.TabStop = False
+        '
+        'pbPiezaB
+        '
+        Me.pbPiezaB.Location = New System.Drawing.Point(343, 298)
+        Me.pbPiezaB.Name = "pbPiezaB"
+        Me.pbPiezaB.Size = New System.Drawing.Size(120, 110)
+        Me.pbPiezaB.TabIndex = 4
+        Me.pbPiezaB.TabStop = False
+        '
+        'pbPiezaC
+        '
+        Me.pbPiezaC.Location = New System.Drawing.Point(476, 298)
+        Me.pbPiezaC.Name = "pbPiezaC"
+        Me.pbPiezaC.Size = New System.Drawing.Size(120, 110)
+        Me.pbPiezaC.TabIndex = 5
+        Me.pbPiezaC.TabStop = False
+>>>>>>> 973d2c17e320c4317d9993aca635e7b3178b669d
         '
         'Juego
         '
@@ -111,6 +175,7 @@ Partial Class Juego
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(800, 450)
+<<<<<<< HEAD
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox4)
@@ -126,14 +191,41 @@ Partial Class Juego
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+=======
+        Me.Controls.Add(Me.pbPiezaC)
+        Me.Controls.Add(Me.pbPiezaB)
+        Me.Controls.Add(Me.pbPiezaA)
+        Me.Controls.Add(Me.pbPieza3)
+        Me.Controls.Add(Me.pbPieza2)
+        Me.Controls.Add(Me.pbPieza1)
+        Me.DoubleBuffered = True
+        Me.Name = "Juego"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Juego"
+        CType(Me.pbPieza1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPieza2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPieza3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPiezaA, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPiezaB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPiezaC, System.ComponentModel.ISupportInitialize).EndInit()
+>>>>>>> 973d2c17e320c4317d9993aca635e7b3178b669d
         Me.ResumeLayout(False)
 
     End Sub
 
+<<<<<<< HEAD
     Friend WithEvents perrono1 As PictureBox
     Friend WithEvents perrono3 As PictureBox
     Friend WithEvents perrono2 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
+=======
+    Friend WithEvents pbPieza1 As PictureBox
+    Friend WithEvents pbPieza2 As PictureBox
+    Friend WithEvents pbPieza3 As PictureBox
+    Friend WithEvents pbPiezaA As PictureBox
+    Friend WithEvents pbPiezaB As PictureBox
+    Friend WithEvents pbPiezaC As PictureBox
+>>>>>>> 973d2c17e320c4317d9993aca635e7b3178b669d
 End Class
